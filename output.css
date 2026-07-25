@@ -426,6 +426,9 @@
   .bg-\[linear-gradient\(rgba\(0\,0\,0\,0\.3\)\,rgba\(0\,0\,0\,0\.3\)\)\,url\(\.\.\/images\/bg_membre\.jpg\)\] {
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/bg_membre.jpg);
   }
+  .bg-\[linear-gradient\(rgba\(0\,0\,0\,0\.3\)\,rgba\(0\,0\,0\,0\.3\)\)\,url\(images\/bg_index\.jpg\)\] {
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/bg_index.jpg);
+  }
   .bg-none {
     background-image: none;
   }

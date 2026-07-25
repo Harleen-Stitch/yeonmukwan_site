@@ -20,10 +20,10 @@ class MonNavbar extends HTMLElement {
         
         <!--  Menu mobile déplié, caché par défaut -->
         <div class="hidden flex-col absolute justify-end w-full bg-black/95 p-6 gap-4 z-100" id="mobile-menu">
-          <a href="/index.html" class="${lienActif('accueil')}">Accueil</a>
-          <a href="/pages/about.html" class="${lienActif('about')}">Qui sommes-nous&nbsp?</a>
-          <a href="/pages/dir_tech.html" class="${lienActif('direction')}">Direction technique</a>
-          <a href="/pages/member.html" class="${lienActif('member')}">Devenir membre</a>
+          <a href="../index.html" class="${lienActif('accueil')}">Accueil</a>
+          <a href="../pages/about.html" class="${lienActif('about')}">Qui sommes-nous&nbsp?</a>
+          <a href="../pages/dir_tech.html" class="${lienActif('direction')}">Direction technique</a>
+          <a href="../pages/member.html" class="${lienActif('member')}">Devenir membre</a>
         </div>
       </nav>
     `;
