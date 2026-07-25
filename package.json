@@ -1,0 +1,25 @@
+{
+  "name": "yeonmukwan_site",
+  "version": "1.0.0",
+  "description": "site web de l'école Yeon Mu Kwan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harleen-Stitch/yeonmukwan_site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Harleen-Stitch/yeonmukwan_site/issues"
+  },
+  "homepage": "https://github.com/Harleen-Stitch/yeonmukwan_site#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}
