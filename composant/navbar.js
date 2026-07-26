@@ -6,10 +6,10 @@ class MonNavbar extends HTMLElement {
     const base = location.pathname.includes('/pages/') ? '../' : '';
 
     this.innerHTML = `
-      <nav class="z-100 fixed w-full flex justify-end md:gap-x-6 md:pt-2 md:pb-2 md:pr-6 md:bg-white">
+      <nav class="z-100 fixed w-full flex justify-end lg:gap-x-6 lg:pt-2 lg:pb-2 lg:pr-6 lg:bg-white">
 
       <!-- visible uniquement sur PC -->
-        <div class="hidden md:flex gap-6">
+        <div class="hidden lg:flex gap-6">
           <a href="${base}index.html" class="${current === 'accueil' ? 'text-nav-text-selected font-bold' : 'text-nav-text'}">Accueil</a>
           <a href="${base}pages/about.html" class="${current === 'about' ? 'text-nav-text-selected font-bold' : 'text-nav-text'}">Qui sommes-nous&nbsp?</a>
           <a href="${base}pages/dir_tech.html" class="${current === 'direction' ? 'text-nav-text-selected font-bold' : 'text-nav-text'}">Direction technique</a>
@@ -17,8 +17,8 @@ class MonNavbar extends HTMLElement {
         </div>
 
 
-        <!-- Bouton hamburger visible seulement en dessous de md -->
-        <button class="md:hidden text-black border-2 border-black bg-white/70 text-3xl mr-2 mt-2 pb-1" id="burger-btn">☰</button>
+        <!-- Bouton hamburger visible seulement en dessous de lg -->
+        <button class="lg:hidden text-black border-2 border-black bg-white/70 text-3xl mr-2 mt-2 pb-1" id="burger-btn">☰</button>
 
         <!--  Menu mobile déplié, caché par défaut -->
         <div class="hidden flex-col absolute justify-end w-full bg-black/95 p-6 gap-4 z-100" id="mobile-menu">
