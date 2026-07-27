@@ -18,7 +18,9 @@ class MonNavbar extends HTMLElement {
 
 
         <!-- Bouton hamburger visible seulement en dessous de lg -->
-        <button class="lg:hidden text-black border-2 border-black bg-white/70 text-3xl mr-2 mt-2 pb-1" id="burger-btn">☰</button>
+        <button class="lg:hidden border-2 border-black/80 bg-white/70 text-3xl mr-2 mt-2 pb-1" id="burger-btn">
+          <img src=../images/burger-menu.svg class="h-6">
+        </button>
 
         <!--  Menu mobile déplié, caché par défaut -->
         <div class="hidden flex-col absolute justify-end w-full bg-black/95 p-6 gap-4 z-100" id="mobile-menu">
